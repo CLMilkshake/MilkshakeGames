@@ -52,8 +52,31 @@
     height: 900px;
     margin-left: -10px;
     background-image: url('background.png');
+    margin-top: -20px;
+    display: flex;
 }
 .imgcenter {
     margin-left: -10px;
     background-image: url('background.png');
 }
+.game {
+    color: royalblue;
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 500px;
+    display: grid;
+    margin-left: 35px;
+}
+.game a{
+    color: royalblue;
+    text-decoration: none;
+    display: grid;
+    justify-content: space-evenly;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
