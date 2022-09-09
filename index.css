@@ -1,0 +1,140 @@
+body {
+    height: 1000px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* The image used */
+    background-image: url("background.png");
+  
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#Header {
+    background-color: purple;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.middle h1 /*Title on the header*/ {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+}
+.middle h4 {
+    margin-left: 50px;
+    font-size: 20px;
+    width: 500px;
+}
+.middle h3 {
+    margin-left: 50px;
+    font-size: 20px;
+    width: 1000px;
+}
+.middle {
+        margin: auto;
+        width: 50%;
+        padding: 20px;
+}
+.logo {
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.logo h1{
+    font-size: 50px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.about{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 1em;
+    color: rgb(0, 17, 255);
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.link {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.link a {
+    color: rgb(245, 133, 4);
+    text-decoration: none;
+}
+#mid-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#mid-page h4 {
+    margin-bottom: -10px;
+}
+.featured {
+    padding-top: 20px;
+    color: rgb(44, 127, 148);
+    
+}
+.featured h1 {
+    display: flex;
+    justify-content: center;
+}
+.featured h2 {
+    display: flex;
+    justify-content: center;
+}
+#lowerpage {
+    height: 300px;
+    width: 110%;
+    margin-left: -70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: purple;
+
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+.icon {
+    font-size: 2em;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.game {
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    border: 50px;
+    border-color: purple;
+}
+.game h1 {
+    color: rgb(245, 133, 4);
+    align-items: center;
+    font-size: 75px;
+    padding-right: 100px;
+}
+.game img {
+    width: 800px;
+}
