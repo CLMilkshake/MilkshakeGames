@@ -5,7 +5,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     /* The image used */
-    background-image: url("background.png");
+    background-image: url("newbackground.png");
   
   
     /* Create the parallax scrolling effect */
@@ -15,7 +15,7 @@ body {
     background-size: cover;
 }
 #Header {
-    background-color: purple;
+    background-color: rgb(128,51,196);
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -73,7 +73,7 @@ body {
     margin-right: 40px;
 }
 .link a {
-    color: rgb(245, 133, 4);
+    color: rgb(0,176,230);
     text-decoration: none;
 }
 #mid-page {
@@ -81,14 +81,15 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 50px;
 }
 #mid-page h4 {
     margin-bottom: -10px;
 }
 .featured {
     padding-top: 20px;
-    color: rgb(44, 127, 148);
-    
+    color: rgb(0,176,230);
+    height: 650px;
 }
 .featured h1 {
     display: flex;
@@ -106,7 +107,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: purple;
+    background-color: rgb(128,51,196);
+    margin-bottom: -50px;
 
 }
 
@@ -127,14 +129,16 @@ body {
     margin-top: 150px;
     margin-bottom: 50px;
     border: 50px;
-    border-color: purple;
+    border-color: rgb(1,171,233);
 }
 .game h1 {
-    color: rgb(245, 133, 4);
+    color: rgb(1,171,233);
     align-items: center;
     font-size: 75px;
+    padding-top: 100px;
     padding-right: 100px;
+    width: 550px;
 }
 .game img {
-    width: 800px;
+    height: 400px;
 }
