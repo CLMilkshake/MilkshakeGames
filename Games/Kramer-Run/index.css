@@ -5,7 +5,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     /* The image used */
-    background-image: url("newbackground.png");
+    background-image: url("kramer_run.png");
   
   
     /* Create the parallax scrolling effect */
@@ -60,6 +60,7 @@ body {
     text-decoration: none;
     font-family: sans-serif;
     font-size: 1em;
+    color: rgb(0, 17, 255);
 }
 .nav {
     display: flex;
@@ -124,18 +125,11 @@ body {
 .game {
     display: flex;
     flex-direction: row;
-    margin-top: 150px;
-    margin-bottom: 50px;
-    border: 50px;
-    border-color: rgb(1,171,233);
 }
 .game h1 {
     color: rgb(1,171,233);
     align-items: center;
     font-size: 75px;
-    padding-top: 100px;
-    padding-right: 100px;
-    width: 550px;
 }
 .game img {
     height: 400px;
