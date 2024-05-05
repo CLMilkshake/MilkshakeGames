@@ -8,7 +8,7 @@ import mcpi.minecraft as minecraft
 #YOUR INFO GOES HERE
 playername = "CLMilkshake"
 path = os.path.dirname(os.path.abspath(__file__)) + "/bad_word.mp3"
-print(path)
+
 
 
 r = sr.Recognizer()
@@ -127,6 +127,7 @@ while(1):
     if [g for g in no if g in text]:
         print("You said a no-no word :(") 
         playsound(path)
+        print(path)
         
         
         # Send the command to the server
