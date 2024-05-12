@@ -79,7 +79,14 @@ GiantList = [
     "about",
     "item",
     "child",
-    "tree"
+    "tree",
+    "lava",
+    "block",
+    "eye",
+    "milkshake",
+    "zack",
+    "zach",
+    "dragon"
 ]
 
 no1 = random.choice(GiantList)
